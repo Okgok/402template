@@ -33,18 +33,25 @@
 	<div class="navbar-fixed-top">
 
 		<nav id="navbar-pc" class="hidden-sm hidden-xs navbar navbar-default row" onclick="navClick()" >		 	
-		 	<a class="col-md-3 navbar-option">
-  				메뉴 1
+		 	<a class="col-md-2 navbar-option">
+  				회원 관리
 			</a>
-		 	<a class="col-md-3 navbar-option">
-  				메뉴 2
+		 	<a class="col-md-2 navbar-option">
+  				후원 관리
 			</a>
-			<a class="col-md-3 navbar-option">
-  				메뉴 3
+			<a class="col-md-2 navbar-option">
+  				입점 관리
 			</a>
-			<a class="col-md-3 navbar-option">
-  				메뉴 4
+			<a class="col-md-2 navbar-option">
+  				업사이클링 
+  				<br>재료 관리
 			</a>	
+			<a class="col-md-2 navbar-option">
+  				상품 관리
+			</a>
+			<a class="col-md-2 navbar-option">
+  				클래스 관리
+			</a>
 		</nav>
 		<nav id="navbar-mobile" class="visible-sm visible-xs navbar navbar-default row">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -53,67 +60,102 @@
 	        </button>	
 		</nav>
 		<div class="collapse row" id="collapse1">
-			<div class="col-md-3" >
+			<div class="col-md-2" >
 				 <ul class="navbar-detail">
 				  	<li class="navbar-detail-li">
-				  		<a href="*">상세메뉴1</a>
+				  		<a href="*">회원가입</a>
 				  	</li>
 				  	<li class="navbar-detail-li">
-				  		<a href="*">상세메뉴2</a>
+				  		<a href="*">회원탈퇴</a>
 				  	</li>
 				  	<li class="navbar-detail-li">
-				  		<a href="*">상세메뉴3</a>
+				  		<a href="*">회원정보수정</a>
 				  	</li>
 				  	<li class="navbar-detail-li">
-				  		<a href="*">상세메뉴4</a>	
+				  		<a href="*">장바구니</a>	
+				  	</li>
+				  	<li class="navbar-detail-li">
+				  		<a href="*">내 활동 등급</a>	
+				  	</li>
+				  	<li class="navbar-detail-li">
+				  		<a href="*">내 활동 경험치</a>	
+				  	</li>
+				  	<li class="navbar-detail-li">
+				  		<a href="*">마일리지 조회</a>	
+				  	</li>
+				  	<li class="navbar-detail-li">
+				  		<a href="*">클래스 참가 현황</a>	
+				  	</li>
+				  	<li class="navbar-detail-li">
+				  		<a href="*">수익 조회</a>	
 				  	</li>
 				  </ul>
 			</div>
-			<div class="col-md-3" >
+			<div class="col-md-2" >
 			  	<ul class="navbar-detail">
 			  		<li class="navbar-detail-li">
-			  			<a href="*">상세메뉴1</a>
+			  			<a href="*">후원 신청</a>
 			  		</li>
 			  		<li class="navbar-detail-li">
-			  			<a href="*">상세메뉴2</a>
-			  		</li>
-			  		<li class="navbar-detail-li">
-			  			<a href="*">상세메뉴3</a>
-			  		</li>
-			  		<li class="navbar-detail-li">
-			  			<a href="*">상세메뉴4</a>	
+			  			<a href="*">후원 내역</a>
 			  		</li>
 			  	</ul>
 			</div>
-			<div class="col-md-3" >
+			<div class="col-md-2" >
 			  	<ul class="navbar-detail">
 			  		<li class="navbar-detail-li">
-			  			<a href="*">상세메뉴1</a>
+			  			<a href="*">입점 신청</a>
 			  		</li>
 			  		<li class="navbar-detail-li">
-			  			<a href="*">상세메뉴2</a>
-			  		</li>
-			  		<li class="navbar-detail-li">
-			  			<a href="*">상세메뉴3</a>
-			  		</li>
-			  		<li class="navbar-detail-li">
-			  			<a href="*">상세메뉴4</a>	
+			  			<a href="*">입점 내역</a>
 			  		</li>
 			  	</ul>
 			</div>
-			<div class="col-md-3" >
+			<div class="col-md-2" >
 			  	<ul class="navbar-detail">
 			  		<li class="navbar-detail-li">
-			  			<a href="*">상세메뉴1</a>
+			  			<a href="*">업사이클링 재료 목록</a>
 			  		</li>
 			  		<li class="navbar-detail-li">
-			  			<a href="*">상세메뉴2</a>
+			  			<a href="*">업사이클링 재료 신청</a>
 			  		</li>
 			  		<li class="navbar-detail-li">
-			  			<a href="*">상세메뉴3</a>
+			  			<a href="*">업사이클링 재료 판매</a>
 			  		</li>
 			  		<li class="navbar-detail-li">
-			  			<a href="*">상세메뉴4</a>	
+			  			<a href="*">업사이클링 재료 구매</a>	
+			  		</li>
+			  	</ul>
+			</div>
+			<div class="col-md-2" >
+			  	<ul class="navbar-detail">
+			  		<li class="navbar-detail-li">
+			  			<a href="*">기업 판매 상품 목록</a>
+			  		</li>
+			  		<li class="navbar-detail-li">
+			  			<a href="*">위탁 판매 상품 목록</a>
+			  		</li>
+			  		<li class="navbar-detail-li">
+			  			<a href="*">내 업사이클링 물품 판매</a>
+			  		</li>
+			  		<li class="navbar-detail-li">
+			  			<a href="*">상품 주문</a>	
+			  		</li>
+			  		<li class="navbar-detail-li">
+			  			<a href="*">주문 현황</a>	
+			  		</li>
+			  	</ul>
+			</div>
+			<div class="col-md-2" >
+			  	<ul class="navbar-detail">
+			  		<li class="navbar-detail-li">
+			  			<a href="*">클래스 강사 신청</a>
+			  		</li>
+			  		<li class="navbar-detail-li">
+			  			<a href="*">클래스 등록</a>
+			  		</li>
+			  		<li class="navbar-detail-li">
+			  			<a href="*">클래스 참가 신청</a>
 			  		</li>
 			  	</ul>
 			</div>

@@ -27,6 +27,7 @@ a:hover{
 	}
 .navbar-default a {
 	color: gray;
+	font-size: 20px;
 }	
 .navbar-fixed-top{
 	position: sticky;
